@@ -7,7 +7,7 @@ import Chart from './components/Chart'
 function App() {
   return (
     <div className="App">
-      {/*<ShoppingList ></ShoppingList>*/}
+      <ShoppingList ></ShoppingList>
       <Chart></Chart>
     </div>
   );
