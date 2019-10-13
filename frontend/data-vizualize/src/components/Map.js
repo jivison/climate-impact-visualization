@@ -14,9 +14,9 @@ class Map extends React.Component {
         data={data}
         features={countries.features}
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
-        colors="RdBu"
+        colors="nivo"
         domain={[ 0, 1000000 ]}
-        unknownColor="#101b42"
+        unknownColor="#FFFFFF"
         label="properties.name"
         valueFormat=".2s"
         projectionType = 'equalEarth'
