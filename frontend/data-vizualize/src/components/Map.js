@@ -3,14 +3,13 @@ import { ResponsiveChoroplethCanvas } from '@nivo/geo'
 
 import data from './data'
 import countries from './world_countries.json'
-// import config from './config'
 
 import './Map.css'
 
 class Map extends React.Component {
     render() {
         return (
-            <div className="chart">
+            <div className="map">
                 <ResponsiveChoroplethCanvas
         data={data}
         features={countries.features}
@@ -20,6 +19,7 @@ class Map extends React.Component {
         unknownColor="#101b42"
         label="properties.name"
         valueFormat=".2s"
+        projectionType = 'equalEarth'
         projectionTranslation={[ 0.5, 0.5 ]}
         projectionRotation={[ 0, 0, 0 ]}
         enableGraticule={true}

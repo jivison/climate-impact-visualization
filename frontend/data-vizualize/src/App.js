@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ShoppingList from './components/ShoppingList'
 import Map from './components/Map'
+import Header from './components/Header'
+import Description from './components/Description'
 
 function App() {
   return (
     <div className="App">
-      <ShoppingList ></ShoppingList>
+      <Header></Header>
       <Map></Map>
+      <Description></Description>
     </div>
   );
 }
