@@ -17,6 +17,7 @@ class Map extends React.Component {
         colors="nivo"
         domain={[ 0, 1000000 ]}
         unknownColor="#FFFFFF"
+        background-color= "#000000"
         label="properties.name"
         valueFormat=".2s"
         projectionType = 'equalEarth'
