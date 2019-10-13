@@ -2,13 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ShoppingList from './components/ShoppingList'
-import Chart from './components/Chart'
+import Map from './components/Map'
 
 function App() {
   return (
     <div className="App">
       <ShoppingList ></ShoppingList>
-      <Chart></Chart>
+      <Map></Map>
     </div>
   );
 }
